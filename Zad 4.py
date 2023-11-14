@@ -9,5 +9,8 @@ Cena=6.70
 Zużycie=(Spalanie*Droga)/100
 Koszt=Zużycie*Cena
 
-print("Zużyjesz", Zużycie, "litrów paliwa")
-print("Koszt podróży wyniesie" , Koszt,"złotych")
+#print("Zużyjesz", Zużycie, "litrów paliwa")
+#print("Koszt podróży wyniesie" , Koszt,"złotych")
+
+print( f"Zużyjesz {Zużycie} litrów paliwa")
+print(f"Koszt podrózy wyniesie {Koszt} złotych")
