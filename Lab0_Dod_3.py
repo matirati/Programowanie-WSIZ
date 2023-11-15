@@ -30,8 +30,8 @@ if Wybór != "1" and Wybór!="2" and Wybór!="3" and Wybór!="4":
         #print("Niepoprawna wartość")
         #sys.exit(0)
 try:
-    pierwsza = int(input("Podaj pierwsza liczbe:"))
-    druga = int(input("Podaj druga liczbe:"))
+    pierwsza = float(input("Podaj pierwsza liczbe:"))
+    druga = float(input("Podaj druga liczbe:"))
 except ValueError:
     print("Nieprawidłowa wartość")
     sys.exit(1)
